@@ -1,1 +1,1 @@
-## Profornitura AI package init
+# Profornitura AI - Frappe App

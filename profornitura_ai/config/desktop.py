@@ -1,0 +1,1 @@
+# Profornitura AI Workspace Icon
