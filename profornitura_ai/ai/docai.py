@@ -1,17 +1,12 @@
 import frappe
 
-def run_docai(gara_name):
-    \"\"
-    Placeholder DocAI:
-    - legge il DocType Gara
-    - crea un DocAI Report minimamente popolato
-    \"\"
-    gara = frappe.get_doc("Gara", gara_name)
-
-    report = frappe.new_doc("DocAI Report")
-    report.gara = gara.name
-    report.testo_estratto = "TESTO ESTRATTO (placeholder)"
-    report.sezioni_json = "{}"
-    report.insert(ignore_permissions=True)
-    frappe.db.commit()
-    return report.name
+def run_docai_for_gara(gara_name: str) -> str:
+    """Placeholder DocAI.
+    In M2/M3 verrà sostituito con:
+    - estrazione PDF
+    - parsing documenti
+    - salvataggio in Report AI
+    """
+    logger = frappe.logger("profornitura_ai.docai")
+    logger.info("DocAI placeholder eseguito per gara=%s", gara_name)
+    return "DocAI placeholder completato per gara: {0}".format(gara_name)

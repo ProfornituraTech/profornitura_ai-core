@@ -1,23 +1,17 @@
 import frappe
 
-def calculate_score(gara_name):
-    \"\"
-    Placeholder AutoDecisionAI:
-    - calcola uno score base
-    - setta campi su Gara se esistono
-    \"\"
-    gara = frappe.get_doc("Gara", gara_name)
+def evaluate_gara_for_company(gara_name: str, company: str = "Profornitura Italia SRL") -> dict:
+    """Placeholder AutoDecisionAI.
+    Ritorna uno score fittizio e un messaggio loggato.
+    M2/M3 sostituiranno questa logica con quella reale.
+    """
+    logger = frappe.logger("profornitura_ai.decisionai")
+    logger.info("Esecuzione AutoDecisionAI placeholder per gara=%s company=%s", gara_name, company)
 
-    score = 75.0
-    risultato = "Idonea" if score >= 60 else "Non idonea"
-
-    if hasattr(gara, "autodecisionai_punteggio"):
-        gara.autodecisionai_punteggio = score
-    if hasattr(gara, "autodecisionai_motivazione"):
-        gara.autodecisionai_motivazione = "Valutazione automatica placeholder."
-    if hasattr(gara, "idonea_per_srl_nuova"):
-        gara.idonea_per_srl_nuova = (risultato == "Idonea")
-
-    gara.save(ignore_permissions=True)
-    frappe.db.commit()
-    return score, risultato
+    return {
+        "gara": gara_name,
+        "company": company,
+        "score": 75,
+        "status": "placeholder",
+        "reason": "AutoDecisionAI pipeline ancora da implementare (M2/M3)."
+    }

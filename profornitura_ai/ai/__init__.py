@@ -1,1 +1,1 @@
-## Profornitura AI package init
+# Package: profornitura_ai.ai

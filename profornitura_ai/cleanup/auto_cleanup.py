@@ -1,12 +1,16 @@
 import frappe
 
-def dry_run_cleanup():
-    \"\"
-    DRY RUN di esempio per verificare cosa verrebbe pulito.
-    \"\"
-    logs = frappe.get_all("Gara Log Operazioni", fields=["name"], limit=50)
-    api_logs = frappe.get_all("API Log", fields=["name"], limit=50)
+def run_auto_cleanup(dry_run: bool = True) -> dict:
+    """Placeholder AutoCleanup.
+    M2/M3: pulizia log vecchi, DocAI temporanei, ecc.
+    """
+    logger = frappe.logger("profornitura_ai.cleanup")
+    mode = "DRY_RUN" if dry_run else "EXECUTE"
+    logger.info("Esecuzione AutoCleanup placeholder in modalità %s", mode)
+
     return {
-        "gara_log_operazioni": [l.name for l in logs],
-        "api_log": [a.name for a in api_logs],
+        "mode": mode,
+        "status": "placeholder",
+        "deleted_records": 0,
+        "notes": "AutoCleanup reale verrà implementato in M2/M3."
     }

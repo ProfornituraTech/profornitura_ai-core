@@ -1,22 +1,10 @@
 import frappe
 
-def check_upcoming_deadlines():
-    \"\"
-    Esempio di scheduler TimelineAI:
-    invia un'email di promemoria per le scadenze aperte.
-    \"\"
-    scadenze = frappe.get_all(
-        "Scadenza Gara",
-        filters={"notifica_inviata": 0},
-        fields=["name", "gara", "data_scadenza"]
-    )
-
-    for s in scadenze:
-        subject = f"Promemoria scadenza gara: {s.get('gara')}"
-        message = f"La scadenza {s.get('name')} per la gara {s.get('gara')} è il {s.get('data_scadenza')}."
-        frappe.sendmail(
-            recipients=[frappe.session.user],
-            subject=subject,
-            message=message
-        )
-        frappe.db.set_value("Scadenza Gara", s.get("name"), "notifica_inviata", 1)
+def check_upcoming_deadlines(days_ahead: int = 7) -> list:
+    """Placeholder TimelineAI.
+    In M2/M3: cercherà le scadenze delle gare entro X giorni.
+    Ora ritorna solo una lista vuota.
+    """
+    logger = frappe.logger("profornitura_ai.timeline")
+    logger.info("Timeline placeholder: controllo scadenze nei prossimi %s giorni", days_ahead)
+    return []
