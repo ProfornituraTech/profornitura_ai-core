@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "profornitura_ai"
+version = "0.0.1"
+authors = [{ name="Vittorio Paolella" }]
+description = "Profornitura AI Platform"
+readme = "README.md"
+requires-python = ">=3.10"

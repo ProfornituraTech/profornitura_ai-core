@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Address-tax_category"
+  },
+  {
+    "name": "Contact-is_billing_contact"
+  },
+  {
+    "name": "Address-is_your_company_address"
+  },
+  {
+    "name": "Company-sb_e_invoicing"
+  },
+  {
+    "name": "Company-fiscal_regime"
+  },
+  {
+    "name": "Company-fiscal_code"
+  },
+  {
+    "name": "Company-vat_collectability"
+  },
+  {
+    "name": "Company-cb_e_invoicing1"
+  },
+  {
+    "name": "Company-registrar_office_province"
+  },
+  {
+    "name": "Company-registration_number"
+  },
+  {
+    "name": "Company-share_capital_amount"
+  },
+  {
+    "name": "Company-no_of_members"
+  },
+  {
+    "name": "Company-liquidation_state"
+  },
+  {
+    "name": "Sales Taxes and Charges-tax_exemption_reason"
+  },
+  {
+    "name": "Sales Taxes and Charges-tax_exemption_law"
+  },
+  {
+    "name": "Customer-fiscal_code"
+  },
+  {
+    "name": "Customer-recipient_code"
+  },
+  {
+    "name": "Customer-pec"
+  },
+  {
+    "name": "Customer-is_public_administration"
+  },
+  {
+    "name": "Customer-first_name"
+  },
+  {
+    "name": "Customer-last_name"
+  },
+  {
+    "name": "Mode of Payment-mode_of_payment_code"
+  },
+  {
+    "name": "Payment Schedule-mode_of_payment_code"
+  },
+  {
+    "name": "Payment Schedule-bank_account"
+  },
+  {
+    "name": "Payment Schedule-bank_account_name"
+  },
+  {
+    "name": "Payment Schedule-bank_account_no"
+  },
+  {
+    "name": "Payment Schedule-bank_account_iban"
+  },
+  {
+    "name": "Payment Schedule-bank_account_swift_number"
+  },
+  {
+    "name": "Sales Invoice-vat_collectability"
+  },
+  {
+    "name": "Sales Invoice-sb_e_invoicing_reference"
+  },
+  {
+    "name": "Sales Invoice-company_fiscal_code"
+  },
+  {
+    "name": "Sales Invoice-company_fiscal_regime"
+  },
+  {
+    "name": "Sales Invoice-cb_e_invoicing_reference"
+  },
+  {
+    "name": "Sales Invoice-customer_fiscal_code"
+  },
+  {
+    "name": "Sales Invoice-type_of_document"
+  },
+  {
+    "name": "Purchase Invoice Item-tax_rate"
+  },
+  {
+    "name": "Purchase Invoice Item-tax_amount"
+  },
+  {
+    "name": "Purchase Invoice Item-total_amount"
+  },
+  {
+    "name": "Sales Order Item-tax_rate"
+  },
+  {
+    "name": "Sales Order Item-tax_amount"
+  },
+  {
+    "name": "Sales Order Item-total_amount"
+  },
+  {
+    "name": "Delivery Note Item-tax_rate"
+  },
+  {
+    "name": "Delivery Note Item-tax_amount"
+  },
+  {
+    "name": "Delivery Note Item-total_amount"
+  },
+  {
+    "name": "Sales Invoice Item-tax_rate"
+  },
+  {
+    "name": "Sales Invoice Item-tax_amount"
+  },
+  {
+    "name": "Sales Invoice Item-total_amount"
+  },
+  {
+    "name": "Sales Invoice Item-customer_po_details"
+  },
+  {
+    "name": "Sales Invoice Item-customer_po_no"
+  },
+  {
+    "name": "Sales Invoice Item-customer_po_clm_brk"
+  },
+  {
+    "name": "Sales Invoice Item-customer_po_date"
+  },
+  {
+    "name": "Quotation Item-tax_rate"
+  },
+  {
+    "name": "Quotation Item-tax_amount"
+  },
+  {
+    "name": "Quotation Item-total_amount"
+  },
+  {
+    "name": "Purchase Order Item-tax_rate"
+  },
+  {
+    "name": "Purchase Order Item-tax_amount"
+  },
+  {
+    "name": "Purchase Order Item-total_amount"
+  },
+  {
+    "name": "Purchase Receipt Item-tax_rate"
+  },
+  {
+    "name": "Purchase Receipt Item-tax_amount"
+  },
+  {
+    "name": "Purchase Receipt Item-total_amount"
+  },
+  {
+    "name": "Supplier Quotation Item-tax_rate"
+  },
+  {
+    "name": "Supplier Quotation Item-tax_amount"
+  },
+  {
+    "name": "Supplier Quotation Item-total_amount"
+  },
+  {
+    "name": "Address-country_code"
+  },
+  {
+    "name": "Address-state_code"
+  },
+  {
+    "name": "Purchase Invoice-document_type"
+  },
+  {
+    "name": "Purchase Invoice-destination_code"
+  },
+  {
+    "name": "Purchase Invoice-imported_grand_total"
+  },
+  {
+    "name": "Purchase Taxes and Charges-tax_rate"
+  },
+  {
+    "name": "Supplier-fiscal_code"
+  },
+  {
+    "name": "Supplier-fiscal_regime"
+  },
+  {
+    "name": "Print Settings-compact_item_print"
+  },
+  {
+    "name": "Print Settings-print_uom_after_quantity"
+  },
+  {
+    "name": "Print Settings-print_taxes_with_zero_amount"
+  },
+  {
+    "name": "Email Account-company"
+  },
+  {
+    "name": "Communication-company"
+  },
+  {
+    "name": "Gara-ai_raw_text"
+  },
+  {
+    "name": "Gara-ai_sections_json"
+  },
+  {
+    "name": "Gara-ai_docai_processed"
+  },
+  {
+    "name": "Gara-ai_score_idoneita"
+  },
+  {
+    "name": "Gara-ai_reasoning"
+  },
+  {
+    "name": "Gara-ai_model_used"
+  }
+]
