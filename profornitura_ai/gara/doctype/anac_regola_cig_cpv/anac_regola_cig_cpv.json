@@ -1,0 +1,16 @@
+{
+    "doctype": "DocType",
+    "name": "ANAC Regola CIG-CPV",
+    "module": "Profornitura AI",
+    "custom": 0,
+    "istable": 0,
+    "fields": [
+        {
+            "fieldname": "note",
+            "label": "Note",
+            "fieldtype": "Small Text"
+        }
+    ],
+    "permissions": [],
+    "allow_rename": 1
+}

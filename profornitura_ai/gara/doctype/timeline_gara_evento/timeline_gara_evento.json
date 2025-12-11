@@ -1,0 +1,26 @@
+{
+    "doctype": "DocType",
+    "name": "Timeline Gara Evento",
+    "module": "Profornitura AI",
+    "custom": 0,
+    "istable": 1,
+    "fields": [
+        {
+            "fieldname": "data_evento",
+            "label": "Data Evento",
+            "fieldtype": "Datetime"
+        },
+        {
+            "fieldname": "tipo_evento",
+            "label": "Tipo Evento",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "nota",
+            "label": "Nota",
+            "fieldtype": "Small Text"
+        }
+    ],
+    "permissions": [],
+    "allow_rename": 1
+}

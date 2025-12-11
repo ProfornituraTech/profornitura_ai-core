@@ -1,0 +1,6 @@
+include MANIFEST.in
+recursive-include profornitura_ai *.json
+recursive-include profornitura_ai *.py
+recursive-include profornitura_ai *.txt
+recursive-include profornitura_ai *.md
+recursive-exclude profornitura_ai *.pyc

@@ -1,0 +1,47 @@
+{
+    "doctype": "DocType",
+    "name": "Gara",
+    "module": "Profornitura AI",
+    "custom": 0,
+    "istable": 0,
+    "fields": [
+        {
+            "fieldname": "titolo",
+            "label": "Titolo",
+            "fieldtype": "Data",
+            "reqd": 1
+        },
+        {
+            "fieldname": "ente_appaltante",
+            "label": "Ente Appaltante",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "cig",
+            "label": "CIG",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "cpv",
+            "label": "CPV",
+            "fieldtype": "Data"
+        },
+        {
+            "fieldname": "importo_base",
+            "label": "Importo Base",
+            "fieldtype": "Currency"
+        },
+        {
+            "fieldname": "scadenza_presentazione",
+            "label": "Scadenza Presentazione Offerte",
+            "fieldtype": "Datetime"
+        },
+        {
+            "fieldname": "idonea_per_srl_nuova",
+            "label": "Idonea per SRL nuova",
+            "fieldtype": "Check"
+        }
+    ],
+    "permissions": [],
+    "allow_rename": 1
+}
